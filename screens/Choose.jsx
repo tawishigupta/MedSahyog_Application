@@ -7,7 +7,7 @@ const Choose = ({ navigation }) => {
     <View style={styles.container}>
         <Text style={styles.heading}>MedSahyog</Text>
         <Text style={styles.tagline}>Connecting Patients and Physicians Seamlessly</Text>
-      <TouchableOpacity style={[styles.card, styles.doctorCard]} onPress={() => navigation.navigate('Login')}>
+      <TouchableOpacity style={[styles.card, styles.doctorCard]} onPress={() => navigation.navigate('Login1')}>
         <Text style={styles.cardText}>Doctor</Text>
       </TouchableOpacity>
       <TouchableOpacity style={[styles.card, styles.patientCard]} onPress={() => navigation.navigate('Login')}>

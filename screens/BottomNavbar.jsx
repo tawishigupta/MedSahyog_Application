@@ -8,8 +8,8 @@ const BottomNavBar = ({ navigation }) => {
       <TouchableOpacity onPress={() => navigation.navigate('PatientHomeScreen')}>
         <Text style={styles.navText}><AntDesign name="home" size={24} color="black" /></Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => navigation.navigate('Testimonials')}>
-        <Text style={styles.navText}><FontAwesome name="comments" size={24} color="black" /></Text>
+      <TouchableOpacity onPress={() => navigation.navigate('AppointmentList')}>
+        <Text style={styles.navText}><FontAwesome name="list-alt" size={24} color="black" /></Text>
       </TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate('BookAppointment')}>
         <Text style={styles.navText}><MaterialCommunityIcons name="book-account-outline" size={24} color="black" /></Text>
@@ -17,7 +17,7 @@ const BottomNavBar = ({ navigation }) => {
       <TouchableOpacity onPress={() => navigation.navigate('DoctorsList')}>
         <Text style={styles.navText}><Fontisto name="doctor" size={24} color="black" /></Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => navigation.navigate('MyProfile')}>
+      <TouchableOpacity onPress={() => navigation.navigate('PatientProfile')}>
         <Text style={styles.navText}><AntDesign name="profile" size={24} color="black" /></Text>
       </TouchableOpacity>
     </View>
